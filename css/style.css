@@ -1,0 +1,139 @@
+body {
+  background-color: #f7ecde;
+}
+
+.site-title {
+  position: relative;
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  color: #352e28;
+}
+
+.site-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: .7rem;
+  background-color: rgb(248, 193, 91);
+  height: 30%;
+  width: 100%;
+  z-index: -1;
+}
+
+
+.site-title:hover::before {
+  height: 50%;
+  transition: height ease-in 1s;
+}
+
+.header-title {
+  font-family: "Righteous", cursive;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-title svg:nth-child(1) {
+  color: #3ca55c;
+}
+
+.header-title svg:nth-child(2) {
+  color: #b5ac49;
+}
+
+
+.btn-submit {
+  color: #fff;
+  background-color: #d1512d;
+}
+
+.btn-submit:hover {
+  color: #fff;
+  background-color: #bb4120;
+}
+
+
+.form-control:focus {
+  border-color: #d99c39;
+  box-shadow: 0 0 0 0.25rem #fec26055;
+}
+
+.dashed-border {
+  border-width: 2px 0 2px 0;
+  border-style: dotted;
+}
+
+
+
+.btn-delete {
+  color: #fff;
+  background-color: #eb1d36;
+
+}
+
+.btn-visit:hover {
+  color: #fff;
+  background-color: #d30820;
+}
+
+
+.btn-visit {
+  color: #fff;
+  background-color: #9eb23b;
+
+}
+
+.btn-visit:hover {
+  color: #fff;
+  background-color: #8a9e23;
+}
+
+
+table {
+  vertical-align: middle !important;
+}
+
+.warning-box {
+  background-color: #0007;
+}
+
+.box-content {
+  width: 500px;
+  z-index: 10;
+}
+
+.box-content p {
+  font-family: "Bree Serif", serif;
+  font-size: 21px;
+  line-height: 1.3;
+  color: #352e28;
+}
+
+.instructions li {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.instructions svg {
+  color: #bb4120;
+}
+
+.circles span {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.circles span:nth-child(1) {
+  background-color: #f15f5d;
+}
+
+.circles span:nth-child(2) {
+  background-color: #febe2e;
+}
+
+.circles span:nth-child(3) {
+  background-color: #4db748;
+}
+
